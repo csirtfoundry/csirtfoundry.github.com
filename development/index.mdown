@@ -1,0 +1,40 @@
+---
+layout: default
+title:  How we develop software
+---
+
+## Development philosophy
+
+We believe in building simple tools that interlock together. We reject enterprise software - expensive, overcomplex products where you pay for features you'll never use.
+
+A good tool should be lean, and have a focused, defined purpose. It should open itself up to interconnections with other tools. When the needs of your tools change - and for CSIRTs, you know they will - you can add on the pieces you need to strengthen the core of your operations.
+
+## Platforms
+
+We believe strongly in web technologies. This doesn't just mean web interfaces, but web accessible data interfaces too.  
+
+We also have a strong set of skills in mobile technologies that work just as well on your cell phone as the do on a desktop.
+
+We favour most any flavour of GNU/Linux for our servers and backends. 
+
+We love additional command line interfaces for all your scripting and croning needs.
+
+## Open source
+
+We are big believers in open source software. We want to improve the state of the art for CSIRT tools, and that means the ability to share and extend them.
+
+We can operate under the license that suits you: MIT, GPL, BSD, or whichever you prefer. Of course, if you want some development that you need to keep close to your chest, no problem - we can work under a closed license too.
+
+## Automation
+
+It's hard to describe how happy automation makes us. The offloading of analyst tedium to an automated process: that's what software is all about.
+
+We have enough new problems to deal with in the information security world, without having to bog our analysts down in repetitive, dull work. Improving your automation lets them dig their way out of trench-digging work, and on to creative, innovate ways to tackle the problems we face.
+
+## Security
+
+For CSIRTs who promote the idea of secure code, they at least need to practice this themselves.  We have experience architecting and deploying secure systems, while being acutely aware of secure sofware development practices.
+
+Additionally, we understand the software needs of IR teams. Monitoring systems need to be non-attributable. Artifacts like malware should be stored securely, where analysts can view information about them without accidentally executing them.
+
+<a href="/examples">Next: what kind of software are we talking about?</a>
