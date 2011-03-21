@@ -1,0 +1,16 @@
+---
+layout: article
+title:  Welcome to CSIRT Foundry
+
+categories:
+ - blog
+
+author: Chris Horsley
+---
+I'm excited to announce that CSIRT Foundry will launch in May 2011.
+
+Over the last six years, I've been working at both AusCERT and JPCERT/CC, national-level CSIRTs in Australia and Japan respectively. I've done a lot of different things over that time: incident response, phishing takedowns, malware analysis, international collaboration, vulnerability alerting, and much beside.
+
+In all of these endeavours, one thing I've noticed is that as analysts, we seem to spend a lot of time doing the menial jobs, and less time doing what we care about: analysing new, interesting attacks, and thinking of creative ways to address the problems confronting us.
+
+One answer to this is via the development of tools to automate whatever we can, as well as provide tools to manage and share incident data.
