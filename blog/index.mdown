@@ -1,5 +1,0 @@
----
-layout: category-pages
-title:  Blog
-category: blog
----
