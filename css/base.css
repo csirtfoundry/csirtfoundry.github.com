@@ -259,8 +259,15 @@ h1 {
  letter-spacing: 1px;
 }
 
-h2, h3 {
+h2 {
+    font: 1.4em;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+h3 {
     font: 1.3em;
+    font-style: italic;
+    font-weight: normal;
 }
 
 a.button {
@@ -342,10 +349,10 @@ ul.nav li a {
  -webkit-border-radius: 4px;
  -moz-border-radius: 4px;
  border-radius: 4px;
- margin: 5px 5px 0 0;
- padding: 6px 10px;
+ margin: 8px 8px 0 0;
+ padding: 10px 10px;
  display: block;
- text-decoration: none;
+ text-decoration: underline;
  float: left;
 }
 
