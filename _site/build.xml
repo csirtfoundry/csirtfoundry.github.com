@@ -1,0 +1,43 @@
+<!--
+File:  build.xml
+This file is used to build and minify the sidelab slick library for production use.  The build file
+is adapted from the jQuery build file which can be found at the following location:
+
+http://github.com/jquery/jquery/blob/master/build.xml
+-->
+<project name="tile5-sandbox" default="build" basedir=".">
+	<target name="build" description="Sandbox Build">
+		<exec executable="sh" dir="tile5">
+			<arg line="build.sh" />
+		</exec>
+		
+		<copy todir="js/tile5/dev">
+			<fileset dir="tile5/dist">
+				<exclude name="docs/**" />
+			</fileset>
+		</copy>
+		
+		<copy todir="js/tile5/dev/style">
+			<fileset dir="tile5/src/style" />
+		</copy>
+	</target>
+	
+	<target name="docs">
+		<exec executable="sh" dir="tile5">
+			<arg line="docs-build.sh" />
+		</exec>
+		
+		<copy todir="docs/api/dev">
+			<fileset dir="tile5/dist/docs" />
+			
+			<filterchain>
+				<tokenfilter>
+					<replacestring from="h1" to="h2" />
+				</tokenfilter>
+			</filterchain>
+		</copy>
+		
+		<move file="docs/api/dev/_index.json" tofile="docs/api/dev/index.json" />
+		<move file="docs/api/dev/_index.html" tofile="docs/api/dev/index.html" />
+	</target>
+</project>

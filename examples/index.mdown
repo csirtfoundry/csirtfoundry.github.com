@@ -1,0 +1,40 @@
+---
+layout: default
+title: What kind of software?
+---
+
+We have a long history of software development for CSIRTs. Here's a small sample of the types of tools we've built before and can build for you, too.
+
+## Monitoring systems
+
+Our team has a long history with monitoring systems.  This includes:
+
+### Malicious web site monitoring systems
+
+A crucial but often neglected job for any incident response team is following up the status of Internet resources used for abuse: domain names, web pages, malware, hosts.  Rather than relying on your analysts checking resources - if they remember - it's far better to automate and systemise this process.
+
+Not only can analysts call up the latest status of any Internet resource of interest, but they can work their way through the history of each too. This allows you to see not only the current status, but every point in time when it was changed - for example, the IP addresses on a fast flux domain.
+
+## Data processing and sharing
+
+One thing CSIRTs don't lack are piles of data. One thing they often lack are tools to break that data down, and actually understand it.
+
+CSIRTs sit on domain name records, IP addresses, web page data, malware, C&C data and more - but how do they know when the hosts used in incident 3254 are the same as those used in 7653?  One way is by finding linkages between data sets, to find out how scams are constructed and related.
+
+## Visualisation
+
+Even when we've found our linkages and relationships, these are less useful if our analysts can't easily see and take action on them. Enter visualisations.
+
+Visualisations can be as simple as a graph, or as complex as 3D eye candy that will impress the boss.  Personally, we believe visualisations need to meet the following attributes:
+
+* *Simple* - a visualisation should be understandable with little instruction.
+* *Automatic* - a visualisation will be forgotten if it needs any human involvement to be updated.
+* *Interactive* - we now have amazing web technogies that let us do incredibly functional interfaces. Static images of graphs don't compare.
+* *Attractive* - we like to deny it, but tools with shoddy interfaces are often dismissed in favour of those where the polish is obvious. We make sure the quality of the interface matches the quality of the results.
+* *Useful* - most important of all, a visualisation should fill an operational need, not just be pretty to look at.
+
+## Odds and ends
+
+A small incident response team often feels like they need to take care of everything, from database admin, to trawling through TCP dump logs, to automating emails to one hundred compromised sites. We love writing small, simple tools that take the load off your analysts.  Don't be a victim of multitasking - let us help you automate the small things and reduce the mental load and grunt work of your team.
+
+<p><a href="/about">Next: meet the team</a></p>

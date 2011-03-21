@@ -1,0 +1,17 @@
+---
+layout: homepage
+title:  Specialist software development for CSIRTs
+---
+
+What do you or your team dislike most about their incident response work? 
+
+* Mountains of tedious phishing sites
+* Unmanageable amounts of data
+* Shutdown messages to the hundred sites that just had a charming browser exploit added to them.
+
+You didn't get into information security to spend your days copying and pasting email addresses into templates. You're busy enough as it is. The last thing you need is to be fighting the tools you use.
+
+This is where we can help.
+CSIRT Foundry offers custom software development and consulting for your organisation. We have years of operational experience working for and with many international CSIRTs.  We'd love to work with you to help your analysts remove the tedious parts of their work. Let them focus on their insight and analysis, and let us take care of the rest.
+
+<p><a href="/development">Next: how we develop software</a></p>
