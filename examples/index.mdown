@@ -7,19 +7,17 @@ We have a long history of software development for CSIRTs. Here's a small sample
 
 ## Monitoring systems
 
-Our team has a long history with monitoring systems.  This includes:
-
-### Malicious web site monitoring systems
-
 A crucial but often neglected job for any incident response team is following up the status of Internet resources used for abuse: domain names, web pages, malware, hosts.  Rather than relying on your analysts checking resources - if they remember - it's far better to automate and systemise this process.
 
-Not only can analysts call up the latest status of any Internet resource of interest, but they can work their way through the history of each too. This allows you to see not only the current status, but every point in time when it was changed - for example, the IP addresses on a fast flux domain.
+Using such a system, not only can analysts call up the latest status of any Internet resource of interest, but they can work their way through the history of each too. This allows you to see the current status as well as every point in time it changed - for example, the IP addresses on a fast flux domain, or the code on a web page.
 
 ## Data processing and sharing
 
 One thing CSIRTs don't lack are piles of data. One thing they often lack are tools to break that data down, and actually understand it.
 
 CSIRTs sit on domain name records, IP addresses, web page data, malware, C&C data and more - but how do they know when the hosts used in incident 3254 are the same as those used in 7653?  One way is by finding linkages between data sets, to find out how scams are constructed and related.
+
+Using both traditional data storage technologies as well as some of the exciting advances to happen lately, we can help you take control of your data and understand it on a deeper level.
 
 ## Visualisation
 
