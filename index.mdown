@@ -13,6 +13,6 @@ You didn't get into information security to spend your days copying and pasting 
 
 This is where we can help.
 
-CSIRT Foundry offers custom software development and consulting for your organisation. We have years of operational experience working for and with many international CSIRTs.  We'd love to work with you to help your analysts remove the tedious parts of their work.  Focus on their insight and analysis, and let us take care of the rest.
+CSIRT Foundry offers custom software development and consulting for your organisation. We have years of operational experience working for and with many international CSIRTs.  We'd love to work with you to help your analysts remove the tedious parts of their work.  Focus on insight and analysis, and let us take care of the rest.
 
 <p><a href="/development">Next: how we develop software</a></p>
