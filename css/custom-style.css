@@ -62,6 +62,10 @@ div.item:first-of-type {
     margin-top: 5px;
 }
 
+#main p.excerpt-date {
+    font-style: italic;
+}
+
 /* sponsor styles */
 
 #main div.sponsor {
