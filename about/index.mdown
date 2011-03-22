@@ -15,7 +15,7 @@ Chris has over six years of experience working in national CSIRTs, as well as fi
 
 No matter which team he was in, he always seemed to come back to developing tools to try and improve processes. Rather than trying to adapt his job to suit software development, he thought it better to make software development his job.
 
-Chris also holds a CISSP if you like the type of thing.
+Chris has also presented at various international security conferences, and has presented CSIRT training courses on behalf of several governments around the world.  He also holds a CISSP (if you like that type of thing).
 
 ### Damon Oehlman (<a href="https://twitter.com/DamonOehlman">@DamonOehlman</a>)
 

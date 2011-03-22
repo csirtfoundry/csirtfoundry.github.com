@@ -5,13 +5,13 @@ title:  How we develop software
 
 ## Development philosophy
 
-We believe in building simple tools that interlock together. We reject enterprise software - expensive, overcomplex products where you pay for features you'll never use.
+We believe in building simple tools that interlock together. We reject enterprise software - expensive, over-complex products where you pay for features you'll never use.
 
 A good tool should be lean, and have a focused, defined purpose. It should open itself up to interconnections with other tools. When the needs of your tools change - and for CSIRTs, you know they will - you can add on the pieces you need to strengthen the core of your operations.
 
 ## Platforms
 
-We believe strongly in web technologies. This doesn't just mean web interfaces, but web accessible data interfaces too.  
+We believe strongly in web technologies. This doesn't just mean web interfaces, but web-accessible data interfaces too.  
 
 We also have a strong set of skills in mobile technologies that work just as well on your cell phone as they do on a desktop.
 
@@ -27,18 +27,18 @@ Of course, if you want some development that you need to keep close to your ches
 
 ## Automation
 
-It's hard to describe how happy automation makes us. The offloading of analyst tedium to an automated process: that's what software is all about.
+It's hard to describe how happy automation makes us. The offloading of tedium via automated processes: that's what software is all about.
 
 We have enough new problems to deal with in the information security world, without having to bog our analysts down in repetitive, dull work. Improving your automation lets them dig their way out of trench-digging work, and on to creative, innovate ways to tackle the problems we face.
 
 ## Reuse
 
-There are lots of interesting problems to tackle out there, and there's no sense reinventing solutions. We also have experience in evaluating and deploying software used by CSIRTs. We're happy to be your software consultant when you need a second pair of hands to decide which option is best.
+There are lots of interesting problems to tackle out there, and there's no sense reinventing solutions. We also have experience in evaluating and deploying software used by CSIRTs. We're happy to be your software consultant when you need a second opinion to decide which path to take.
 
 ## Security
 
-For CSIRTs who promote the idea of secure code, they at least need to practice this themselves.  We have experience architecting and deploying secure systems, while being acutely aware of secure sofware development practices.
+As a guiding light in the information security industry, CSIRTs need to set the example by strictly practicing secure software practices.  We have experience designing and deploying secure systems, while being acutely aware of secure software development practices.
 
-Additionally, we understand the software needs of IR teams. Monitoring systems need to be non-attributable. Artifacts like malware should be stored securely, where analysts can view information about them without accidentally executing them.
+Additionally, we understand the software needs of IR teams. Monitoring systems need to be non-attributable. Artifacts like malware should be stored securely, where analysts can view information about them without accidentally executing them.  System access should be compartmentalised, using encryption or signing with appropriate.
 
 <p><a href="/examples">Next: what kind of software are we talking about?</a></p>
