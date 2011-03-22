@@ -27,18 +27,18 @@ Of course, if you want some development that you need to keep close to your ches
 
 ## Automation
 
-It's hard to describe how happy automation makes us. The offloading of analyst tedium to an automated process: that's what software is all about.
+It's hard to describe how happy automation makes us. The offloading of tedium via automated processes: that's what software is all about.
 
 We have enough new problems to deal with in the information security world, without having to bog our analysts down in repetitive, dull work. Improving your automation lets them dig their way out of trench-digging work, and on to creative, innovate ways to tackle the problems we face.
 
 ## Reuse
 
-There are lots of interesting problems to tackle out there, and there's no sense reinventing solutions. We also have experience in evaluating and deploying software used by CSIRTs. We're happy to be your software consultant when you need a second pair of hands to decide which option is best.
+There are lots of interesting problems to tackle out there, and there's no sense reinventing solutions. We also have experience in evaluating and deploying software used by CSIRTs. We're happy to be your software consultant when you need a second opinion to decide which path to take.
 
 ## Security
 
-For CSIRTs who promote the idea of secure code, they at least need to practice this themselves.  We have experience designing and deploying secure systems, while being acutely aware of secure software development practices.
+As a guiding light in the information security industry, CSIRTs need to set the example by strictly practicing secure software practices.  We have experience designing and deploying secure systems, while being acutely aware of secure software development practices.
 
-Additionally, we understand the software needs of IR teams. Monitoring systems need to be non-attributable. Artifacts like malware should be stored securely, where analysts can view information about them without accidentally executing them.
+Additionally, we understand the software needs of IR teams. Monitoring systems need to be non-attributable. Artifacts like malware should be stored securely, where analysts can view information about them without accidentally executing them.  System access should be compartmentalised, using encryption or signing with appropriate.
 
 <p><a href="/examples">Next: what kind of software are we talking about?</a></p>
