@@ -272,7 +272,11 @@ div#index h2 {
 
 #main p.article-date {
     font: bold 0.95em Arial;
-    display: inline-block;
+    //display: inline-block;
+    max-width: 500px;
+    text-align: left;
+    margin: 0px auto;
+    margin-bottom: 15px;
     margin: 2px 10px;
 }
 
