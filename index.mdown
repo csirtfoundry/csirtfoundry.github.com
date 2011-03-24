@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title:  Specialist software development for CSIRTs
+title:  Specialist software development for incident response teams
 ---
 
 What do you or your team struggle with most in your incident response work? 
