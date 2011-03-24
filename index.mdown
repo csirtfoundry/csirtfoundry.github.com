@@ -9,7 +9,7 @@ What do you or your team struggle with most in your incident response work?
 * Unmanageable amounts of data?
 * Unable to see the deeper trends in your day-to-day incidents?
 
-If only you could clear the clutter of the routine parts of your IR and analysis work, you could make headway finding better ways to address the bigger challenges. Make inroads on the problem, rather than barely keeping up with it.
+If only you could hone the routine parts of your IR, you could make headway finding better ways to address the bigger challenges. Make inroads on the problem, rather than barely keeping up with it.
 
 This is where we can help.
 
@@ -18,4 +18,4 @@ workflow of your security team.**
 
 We offer custom software development and consulting for your organisation. We have years of operational experience working for and with many international CSIRTs.  We'd love to work with you to help your analysts remove the tedious parts of their work.  Focus on insight and analysis, and let us take care of the rest.
 
-<p><a href="/development">Next: how we develop software</a></p>
+<p><a href="/challenges/">Next: what's different about CSIRT software development?</a></p>
