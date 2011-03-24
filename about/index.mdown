@@ -22,3 +22,5 @@ Chris has also presented at various international security conferences, and has 
 Damon has a long history in software development, back from the days of Delphi, and is now a passionate advocate of web technologies, with a particular focus on mobile technologies. He's one of those "full stack" programmers that knows their way around everything from a database to a solid backend to a streamlined, attractive interface.
 
 Damon founded Sidelab in 2010 after years in the industry, including a stint in the UK. He's just the guy to talk to when you want to know which technology is the best fit, from the traditional all the way to the bleeding edge.
+
+<p><a href="/contact/">Next: contact us</a>, or find out more on <a href="/blog/">our blog</a>. 
