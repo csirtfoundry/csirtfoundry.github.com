@@ -33,7 +33,9 @@ We have enough new problems to deal with in the information security world, with
 
 ## Reuse
 
-There are lots of interesting problems to tackle out there, and there's no sense reinventing solutions. We also have experience in evaluating and deploying software used by CSIRTs. We're happy to be your software consultant when you need a second opinion to decide which path to take.
+There are lots of interesting problems to tackle out there, and there's no sense reinventing solutions. 
+
+We also have experience in evaluating and deploying software used by CSIRTs. We're happy to be your software consultant when you need a second opinion to decide which path to take.
 
 ## Security
 
