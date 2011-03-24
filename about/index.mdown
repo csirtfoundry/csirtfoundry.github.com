@@ -23,4 +23,4 @@ Damon has a long history in software development, back from the days of Delphi, 
 
 Damon founded Sidelab in 2010 after years in the industry, including a stint in the UK. He's just the guy to talk to when you want to know which technology is the best fit, from the traditional all the way to the bleeding edge.
 
-<p><a href="/contact/">Next: contact us</a>, or find out more on <a href="/blog/">our blog</a>. 
+<p><a href="/contact/">Next: contact us</a>, or find out more on <a href="/blog/">our blog</a></p>. 
