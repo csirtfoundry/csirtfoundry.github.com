@@ -9,7 +9,7 @@ What do you or your team struggle with most in your incident response work?
 * Unmanageable amounts of data?
 * Unable to see the deeper trends in your day-to-day incidents?
 
-If only you could hone the routine parts of your IR, you could make headway finding better ways to address the bigger challenges. Make inroads on the problem, rather than barely keeping up with it.
+If only you could streamline the routine parts of your IR, you could make headway finding better ways to address the bigger challenges. Make inroads on the problem, rather than barely keeping up with it.
 
 This is where we can help.
 
