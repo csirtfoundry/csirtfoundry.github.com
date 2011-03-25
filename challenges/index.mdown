@@ -36,12 +36,12 @@ A software developer that's interrupted every ten minutes by an incident report 
 
 ## Built for the needs of CSIRTS
 
-Ask a lot of people what a CSIRT does, and you'll likely get some blank stares. To ask someone to build a system for you, you need to explain CSIRT operations 101. How do phishing sites work, and what are the tell-tale signs that a site is fake? How do drive by downloads work? What protocols do botnet C&Cs often use?
+What CSIRTs do is quite specialised: not everyone understands the mindset that security folks have. To ask someone to build a system for you, you need to explain CSIRT operations 101. How do phishing sites work, and what are the tell-tale signs that a site is fake? How do drive by downloads work? What protocols do botnet C&Cs often use?
 
-Woudln't it be good if your software developers already had this baseline of understanding?
+Wouldn't it be good if your software developers already had this baseline of understanding?
 
 We understand the software needs of IR teams, because we've had those same needs before.  Monitoring systems need to consider non-attribution. Dangerous artifacts like malware should be stored securely, where analysts can view information about them without accidentally executing them.  System access should be compartmentalised, using encryption or signing as appropriate.
 
-Working with us lets you skip over those explanations about what CSIRTs do, and get down to the interesting parts of how we're going to solve the problem.
+Working with us lets you skip over those explanations about what CSIRTs do, and get down to the interesting parts of how we're going to solve problems.
 
 <p><a href="/development">Next: how do we develop our software?</a></p>
