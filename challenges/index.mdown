@@ -2,13 +2,23 @@
 layout: default
 title:  CSIRT challenges
 ---
+<p id="#toc">
+    <ul>
+        <li><a href="#filtering">Filtering</a></li>
+        <li><a href="#repetition">Repetition</a></li>
+        <li><a href="#special_environmental_constraints">Special environmental constraints</a></li>
+        <li><a href="#response_and_development_are_different">Response and development are different</a></li>
+        <li><a href="#built_for_the_needs_of_csirts">Built for the needs of CSIRTs</a></li>
+    </ul>
+</p>
+
 What kinds of challenges do CSIRTs face that relate to process and software?
 
-## The Sieve
+## Filtering
 
-At some level, every incident response team is like a massive sieve: taking data and reports in, filtering and refining them, and then producing high-quality, verified information that goes out to your constituents and other teams.
+At some level, every incident response team is like a filter : taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to your constituents and other teams.
 
-Although this process is integral to being a CSIRT, managing data can feel like doing your taxes: necessary, but painful. To be an effective security team, you need to be effective at processing your data. 
+Although this process is integral to CSIRTs, managing data can feel like doing your taxes: necessary, but painful. To be an effective security team, you need to be effective at processing your data. 
 
 ## Repetition
 
@@ -22,11 +32,11 @@ Using software, we can automate as much tedium as possible, leaving your team fr
 
 The most important asset you own as a CSIRT is your name and its reputation. You're careful to protect that asset by protecting the sensitive information you handle.
 
-In contrast to the trend of creating software interlaced with external web service dependencies, you want to know you can control, verify, and rely on your environment. Sometimes, you need to trust it to the point where it's not connected to any external networks at all.
+In contrast to the trend of creating software heavy with external web service dependencies, you want to know you can control, verify, and rely on your environment. Sometimes, you need to trust it to the point where it's not connected to any external networks at all.
 
 This creates some software development issues that are challenging, and require some special understanding.
 
-## Software development and incident response need different environments
+## Response and development are different
 
 Incident response involves waiting for unpredictable things to cause damage, then doing something.
 
@@ -34,7 +44,7 @@ Software development involves making a careful plan, then implementing that plan
 
 A software developer that's interrupted every ten minutes by an incident report is not effective. Your software developers need to understand the incident response process, without actually being subjected to the unpredictability of incident response itself. 
 
-## Built for the needs of CSIRTS
+## Built for the needs of CSIRTs
 
 What CSIRTs do is quite specialised: not everyone understands the mindset that security folks have. To ask someone to build a system for you, you need to explain CSIRT operations 101. How do phishing sites work, and what are the tell-tale signs that a site is fake? How do drive by downloads work? What protocols do botnet C&Cs often use?
 

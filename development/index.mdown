@@ -3,6 +3,17 @@ layout: default
 title:  How we develop software
 ---
 
+<p class="toc">
+    <ul>
+        <li><a href="#development_philosophy">Development philosophy</a></li>
+        <li><a href="#platforms">Platforms</a></li>
+        <li><a href="#open_source">Open source</a></li>
+        <li><a href="#automation">Automation</a></li>
+        <li><a href="#reuse">Reuse</a></li>
+        <li><a href="#secure_software_development">Secure software development</a></li>
+    </ul>
+</p>
+
 ## Development philosophy
 
 We believe in building simple tools that interlock together. We reject enterprise software - expensive, over-complex products where you pay for features you'll never use.

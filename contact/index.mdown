@@ -2,9 +2,15 @@
 layout: default
 title:  Contact us
 ---
+If you've got a project you need help with, we want to hear from you. This could be:
+
+* consulting on how to solve a problem in your CSIRT;
+* how to improve your workflow and processes;
+* advice chosing which solution to implement;
+* a software development project, from design to development and implementation.
 
 You can get in touch with us in multiple ways:
 
-* Via email at contact -at- csirtfoundry dot com.
+* Via email at **contact -at- csirtfoundry dot com**.
 <!--* Our PGP key is available at:--> 
 * On Twitter at <a href="https://twitter.com/CSIRTFoundry">@CSIRTFoundry</a>

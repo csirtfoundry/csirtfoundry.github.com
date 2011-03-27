@@ -2,6 +2,15 @@
 layout: default
 title: What kind of software?
 ---
+<p id="toc">
+    <ul>
+        <li><a href="#monitoring_systems">Monitoring systems</a></li>
+        <li><a href="#data_processing_and_sharing">Data processing and sharing</a></li>
+        <li><a href="#visualisation">Visualisation</a></li>
+        <li><a href="#workflow_tools">Workflow tools</a></li>
+    </ul>
+</p>
+
 
 We have a long history of software development for CSIRTs. Here's a small sample of the types of tools we've built before and can build for you, too.
 
