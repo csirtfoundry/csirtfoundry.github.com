@@ -9,7 +9,7 @@ Founded in 2011, CSIRT Foundry is a subsidiary of <a href="http://www.sidelab.co
 
 ## Founders
 
-### Chris Horsley (<a href="https://twitter.com/Parsify">@Parsify</a>)
+### **Chris Horsley** (<a href="https://twitter.com/Parsify">@Parsify</a>)
 
 Chris has over six years of experience working in national CSIRTs, as well as five years experience as a software developer and sysadmin before that. He joined AusCERT in 2003, where he developed a strong interest in automation and visualisation, particularly for processing phishing sites and log files. The small but very active AusCERT analyst team did everything: tackling online financial fraud, building tools, talking on the phone to victims of compromise, interacting with the international security community, and providing security training courses.
 
@@ -19,7 +19,7 @@ The common thread that emerged again and again was a desire to develop tools to 
 
 Chris has presented at various international security conferences, and has given CSIRT training courses for several governments around the world.  He also holds a CISSP (if you like that type of thing).
 
-### Damon Oehlman (<a href="https://twitter.com/DamonOehlman">@DamonOehlman</a>)
+### **Damon Oehlman** (<a href="https://twitter.com/DamonOehlman">@DamonOehlman</a>)
 
 Damon has a long history in software development, back from the days of Delphi, and is now a passionate advocate of web technologies, with a particular focus on mobile technologies. He's one of those "full stack" programmers that knows their way around everything from a database to a solid backend to a streamlined, attractive interface.
 

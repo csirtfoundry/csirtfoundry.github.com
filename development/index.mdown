@@ -18,7 +18,7 @@ title:  How we develop software
 
 We believe in building simple tools that interlock together. We reject enterprise software - expensive, over-complex products where you pay for features you'll never use.
 
-A good tool should be lean and focused. It should open itself up to interconnections with other tools. When the needs of your tools change as the situation changes, you can add on the pieces you need.
+A good tool should be lean and focused. It should open itself up to interconnections with other tools. When the needs of your tools change as the situation changes, you can adapt easily.
 
 ## Platforms <img src="/img/head_icons/web.png" />
 

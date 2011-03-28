@@ -16,15 +16,17 @@ We have a long history of software development for CSIRTs. Here's a small sample
 
 ## Monitoring systems <img src="/img/head_icons/radar.png" />
 
-A crucial but often neglected job for any incident response team is following up the status of Internet resources used for abuse: domain names, web pages, malware, hosts.  Rather than your analysts continually checking - if they remember - it's far better to automate and systemise this process.
+Does your team follow up the status of resources being abused? How about six months after the initial report, when it comes back to life? Domain names, web pages, malware, hosts?  Rather than your analysts continually checking - if they remember - it's far better to automate and systemise this process.
 
-Using a monitoring system, not only can analysts call up the latest status of any Internet resource of interest, but they can work their way through the history of each too. This allows you to see the current status as well as each time it changed. When did a fast flux domain change? When did a phisher modify their scam site, and how?
+Using a monitoring system, not only can you see the current status of a bad URL, but also its complete history. When did a fast flux domain change? When did a phisher modify their scam site, and how?
+
+To get insight into attacks, we need data to help us understand their lifecycles.
 
 ## Data processing and sharing <img src="/img/head_icons/database.png" />
 
-One thing CSIRTs don't lack are piles of data. One thing they often lack are tools to break that data down and understand it.
+One thing security teams don't lack is mountains of data. One thing they often lack are tools to break that data down and understand it.
 
-CSIRTs have large collections of domain name records, IP addresses, web page data, malware, C&C data and more. How do they know when the hosts used in an incident three months ago are the same as those used today?  One way is by finding linkages between data sets, to find out how scams are constructed and related.
+CSIRTs have large collections of information: domain name records, IP addresses, web page data, malware, C&C data and more. How do they know when the hosts used in an incident three months ago are the same as those used today?  One way is by finding linkages between data sets, to find out how scams are constructed and related.
 
 Using both traditional data storage technologies as well as more cutting edge technologies, we can help you take control of your data and understand it on a deeper level.
 

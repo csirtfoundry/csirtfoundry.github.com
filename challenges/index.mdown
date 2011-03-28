@@ -16,7 +16,7 @@ What are some challenges we can help your security team overcome?
 
 ## Filtering <img src="/img/head_icons/filter.png" />
 
-An incident response team is like a filter : taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to your constituents and other teams.
+An incident response team is like a filter : taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to other teams and constituents.
 
 Although this process is integral to CSIRTs, managing data can feel like doing your taxes: necessary, but painful. To be an effective security team, you need to be effective with your data. 
 
@@ -26,19 +26,19 @@ While some incident reports are exciting and unique, the majority are not. The b
 
 One problem this leads to is burnout. You and your team want to investigate new threats, not handle the same incidents every day. There's nothing that saps creativity among a sharp security team faster than repetition.
 
-Using software, we can automate as much tedium as possible. Your team can do what they're good at - focus on the new and interesting.
+Using software, we can automate away as much tedium as possible. Your team is left to do what they're good at - focus on the new and interesting.
 
 ## Special environmental constraints <img src="/img/head_icons/firewall.png" />
 
 The most important asset you own as a CSIRT is your name and its reputation. You're careful to protect that asset by protecting the sensitive information you handle.
 
-Opposing the trend of creating software heavy with external web service dependencies, you want to know you can control, verify, and rely on your environment. Sometimes, you need to trust it to the point where it's not connected to any external networks at all.
+Software interlaced with third party web service dependencies isn't for everyone. You want to know you can strictly control, verify, and rely on your environment. You may need to trust it to the point where it's not connected to any external networks at all.
 
-This creates some unique software development challenges that require some special understanding.
+This creates some unique software development challenges that require special understanding.
 
 ## Response and development are different <img src="/img/head_icons/alarm.png" />
 
-Incident response involves waiting for unpredictable things to cause damage, then doing something.
+Incident response involves waiting for unpredictable things to cause damage, then taking action.
 
 Software development involves making a careful plan, then implementing that plan with intense bouts of concentration.
 
