@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Contact us
+title:  Talk to us
 ---
 If you've got a project you need help with, we want to hear from you. This could be:
 
