@@ -16,7 +16,7 @@ What are some challenges we can help your security team overcome?
 
 ## Filtering <img src="/img/head_icons/filter.png" />
 
-An incident response team is like a filter : taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to other teams and constituents.
+An incident response team is like a filter: taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to other teams and constituents.
 
 Although this process is integral to CSIRTs, managing data can feel like doing your taxes: necessary, but painful. To be an effective security team, you need to be effective with your data. 
 

@@ -262,6 +262,7 @@ h1 {
 h2 {
     font: 1.4em;
     border-bottom: 1px solid #DDDDDD;
+    padding-top: 16px;
 }
 
 h3 {
