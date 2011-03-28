@@ -1,23 +1,23 @@
 ---
 layout: homepage
-title:  Specialist software development for incident response teams
+title:  Specialist software development for security teams
 ---
 
-What do you or your team struggle with most in your incident response work? 
+What do you struggle with most in your incident response work? 
 
 * Never-ending phishing sites?
 * Unmanageable amounts of data?
 * Unable to see the deeper trends in your incident data?
 
-If only you could streamline the routine parts of your IR, you could make progress finding better ways to address the bigger challenges: make inroads on the problem, rather than barely keeping up with it.
+If only you could streamline your IR, you could find better ways to address the bigger challenges: make inroads on the problem, rather than barely keeping up with it.
 
 This is where we can help.
 
-**CSIRT Foundry will help you automate and improve the analysis and 
-workflow tools of your security team.**
+<p class="breakout" markdown="1">CSIRT Foundry will help you **automate** and **improve** your security analysis and workflow tools.</p>
 
-We offer custom software development and consulting for your organisation. We have years of operational experience working for and with many international CSIRTs.  
+We offer custom software development and consulting for your organisation. We have years of operational experience working with many international CSIRTs.
 
-We'd love to work with you to help your analysts remove the tedious parts of their work.  Focus on insight and analysis, and let us take care of the rest.
 
-<p><a href="/challenges/">Next: what's different about CSIRT software development?</a></p>
+We'd love to help your analysts remove the tedious parts of their work.  Focus on insight and analysis, and let us take care of the rest.
+
+<p><a href="/challenges/">Next: how can we improve your security team's response?</a></p>

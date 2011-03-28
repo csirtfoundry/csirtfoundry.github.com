@@ -18,7 +18,7 @@ title:  How we develop software
 
 We believe in building simple tools that interlock together. We reject enterprise software - expensive, over-complex products where you pay for features you'll never use.
 
-A good tool should be lean and focused. It should open itself up to interconnections with other tools. When the needs of your tools change as the situation changes, you can add on the pieces you need to strengthen the core of your operations.
+A good tool should be lean and focused. It should open itself up to interconnections with other tools. When the needs of your tools change as the situation changes, you can add on the pieces you need.
 
 ## Platforms <img src="/img/head_icons/web.png" />
 
@@ -32,7 +32,7 @@ We favour most any flavour of GNU/Linux for our servers and backends.
 
 ## Open source <img src="/img/head_icons/open_source.png" />
 
-We are big believers in open source software. We want to improve the state of the art for CSIRT tools, and that means the ability to share and extend them.  We can operate under the license that suits you: MIT, GPL, BSD, or whichever you prefer. 
+We are big believers in open source software. We want to improve the state of the art for CSIRT tools, and that includes the ability to share and extend them.  We can operate under the license that suits you: MIT, GPL, BSD, or your preference. 
 
 Of course, if you want some development that you need to keep close to your chest, no problem - we can work under a closed license too.
 
@@ -40,11 +40,11 @@ Of course, if you want some development that you need to keep close to your ches
 
 It's hard to describe how happy automation makes us. The offloading of tedium via automated processes: that's what software is all about.
 
-CSIRTs have enough new problems to deal with in the information security world, without being bogged down in repetitive, dull work. Improving your automation lets your team dig their way out of trench-digging work, and on to creative, innovate ways to tackle the problems you face.
+CSIRTs have enough new problems to deal with in the information security world, without being bogged down in repetitive, dull work. Improving your automation lets your team escape from trench-digging work, and move on to innovate ways to tackle the problems you face.
 
 ## Reuse <img src="/img/head_icons/reuse.png" />
 
-There are lots of interesting problems to tackle out there, and there's no sense reinventing solutions. 
+There are lots of problems to tackle out there, and there's no sense reinventing solutions. 
 
 We have experience in evaluating and deploying software used by CSIRTs. We're happy to be your software consultant when you need a second opinion to decide which path to take.
 

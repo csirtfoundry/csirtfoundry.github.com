@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  CSIRT challenges
+title:  Improving your security team's response
 ---
 <p id="#toc">
     <ul>
@@ -12,29 +12,29 @@ title:  CSIRT challenges
     </ul>
 </p>
 
-What kinds of challenges do CSIRTs face that relate to process and software?
+What are some challenges we can help your security team overcome?
 
 ## Filtering <img src="/img/head_icons/filter.png" />
 
-At some level, every incident response team is like a filter : taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to your constituents and other teams.
+An incident response team is like a filter : taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to your constituents and other teams.
 
-Although this process is integral to CSIRTs, managing data can feel like doing your taxes: necessary, but painful. To be an effective security team, you need to be effective at processing your data. 
+Although this process is integral to CSIRTs, managing data can feel like doing your taxes: necessary, but painful. To be an effective security team, you need to be effective with your data. 
 
 ## Repetition <img src="/img/head_icons/arrow_cycle.png" />
 
 While some incident reports are exciting and unique, the majority are not. The bulk of what CSIRTs handle is repetitive: malware infections, phishing sites, port scans.
 
-One problem this leads to is burnout. You and your team want to investigate the new, interesting threats, not handle the same incidents every day. There's nothing that saps creativity and causes complacency among a sharp security team faster than repetition.
+One problem this leads to is burnout. You and your team want to investigate new threats, not handle the same incidents every day. There's nothing that saps creativity among a sharp security team faster than repetition.
 
-Using software, we can automate as much tedium as possible, leaving your team free to focus on the new and interesting.
+Using software, we can automate as much tedium as possible. Your team can do what they're good at - focus on the new and interesting.
 
 ## Special environmental constraints <img src="/img/head_icons/firewall.png" />
 
 The most important asset you own as a CSIRT is your name and its reputation. You're careful to protect that asset by protecting the sensitive information you handle.
 
-In contrast to the trend of creating software heavy with external web service dependencies, you want to know you can control, verify, and rely on your environment. Sometimes, you need to trust it to the point where it's not connected to any external networks at all.
+Opposing the trend of creating software heavy with external web service dependencies, you want to know you can control, verify, and rely on your environment. Sometimes, you need to trust it to the point where it's not connected to any external networks at all.
 
-This creates some software development issues that are challenging, and require some special understanding.
+This creates some unique software development challenges that require some special understanding.
 
 ## Response and development are different <img src="/img/head_icons/alarm.png" />
 
@@ -46,12 +46,12 @@ A software developer that's interrupted every ten minutes by an incident report 
 
 ## Built for the needs of CSIRTs <img src="/img/head_icons/lock.png" />
 
-What CSIRTs do is quite specialised: not everyone understands the mindset that security folks have. To ask someone to build a system for you, you need to explain CSIRT operations 101. How do phishing sites work, and what are the tell-tale signs that a site is fake? How do drive by downloads work? What protocols do botnet C&Cs often use?
+What CSIRTs do is quite specialised: not everyone understands the mindset that security folks have. To ask someone to build a system for you, you need to explain CSIRT operations 101. How do phishing sites work? What are the tell-tale signs that a site is fake? How do drive by downloads work? What protocols do botnet C&Cs often use?
 
 Wouldn't it be good if your software developers already had this baseline of understanding?
 
-We understand the software needs of IR teams, because we've had those same needs before.  Monitoring systems need to consider non-attribution. Dangerous artifacts like malware should be stored securely, where analysts can view information about them without accidentally executing them.  System access should be compartmentalised, using encryption or signing as appropriate.
+We understand the needs of IR teams, because we've had those same needs before.  Monitoring systems need to consider non-attribution. Dangerous artifacts like malware should be stored safely.  System access should be compartmentalised, using encryption or signing as appropriate.
 
-Working with us lets you skip over those explanations about what CSIRTs do, and get down to the interesting parts of how we're going to solve problems.
+Working with us lets you skip over the explanations about what it is you do, and get down to solving problems. 
 
 <p><a href="/development">Next: how do we develop our software?</a></p>

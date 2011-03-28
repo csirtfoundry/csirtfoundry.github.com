@@ -34,7 +34,7 @@
 
 #main h2 img {
     float: right;
-    margin-top: -16px;
+    margin-top: -15px;
 }
 
 div.demo-item[data-version=dev]::before {
@@ -84,6 +84,12 @@ div.item:first-of-type {
     -moz-box-shadow: none;
     box-shadow: none;
     margin: 15px 10px 5px;
+}
+
+#main p.breakout {
+    border: 1px solid black;
+    background: gold;
+    padding: 5px;
 }
 
 /* action styles */
@@ -409,7 +415,7 @@ footer {
     }
     
     #topdrop.dropped {
-        height: 245px;
+        height: 600px;
     }
 
     #logo a {
