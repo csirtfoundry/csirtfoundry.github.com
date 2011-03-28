@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 <title>CSIRT Foundry</title>
-<link href="http://csirtfoundry.com/atom.xml" rel="self"/>
+<link href="http://www.csirtfoundry.com/atom.xml" rel="self"/>
 <link href="http://csirtfoundry.com/"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>http://www.csirtfoundry.com/</id>
@@ -19,7 +19,7 @@ layout: nil
     <title>{{ post.title }}</title>
     <link href="http://csirtfoundry.com{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>http://csirtfoundry.com{{ post.id }}</id>
+    <id>http://www.csirtfoundry.com{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
 </entry>
 {% endfor %}
