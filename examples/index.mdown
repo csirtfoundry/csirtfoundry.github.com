@@ -14,13 +14,13 @@ title: What kind of software?
 
 We have a long history of software development for CSIRTs. Here's a small sample of the types of tools we've built before and can build for you, too.
 
-## Monitoring systems
+## Monitoring systems <img src="/img/head_icons/radar.png" />
 
 A crucial but often neglected job for any incident response team is following up the status of Internet resources used for abuse: domain names, web pages, malware, hosts.  Rather than your analysts continually checking - if they remember - it's far better to automate and systemise this process.
 
 Using a monitoring system, not only can analysts call up the latest status of any Internet resource of interest, but they can work their way through the history of each too. This allows you to see the current status as well as each time it changed. When did a fast flux domain change? When did a phisher modify their scam site, and how?
 
-## Data processing and sharing
+## Data processing and sharing <img src="/img/head_icons/database.png" />
 
 One thing CSIRTs don't lack are piles of data. One thing they often lack are tools to break that data down and understand it.
 
@@ -28,9 +28,11 @@ CSIRTs have large collections of domain name records, IP addresses, web page dat
 
 Using both traditional data storage technologies as well as more cutting edge technologies, we can help you take control of your data and understand it on a deeper level.
 
-## Visualisation
+## Visualisation <img src="/img/head_icons/graph.png" />
 
 Even when we've found our linkages and relationships, these are less useful if our analysts can't easily see and take action on them. Enter visualisations.
+
+<p><img src="/img/treemap.png" /></p>
 
 Visualisations can be as simple as a graph, or as complex as 3D eye candy that will impress the top brass.  We believe visualisations need to meet the following attributes:
 
@@ -40,7 +42,7 @@ Visualisations can be as simple as a graph, or as complex as 3D eye candy that w
 * *Attractive* - we like to deny it, but tools with shoddy interfaces are often dismissed in favour of those where the polish is obvious. We make sure the quality of the interface matches the quality of the results.
 * *Useful* - most important of all, a visualisation should fill an operational need, not just be pretty to look at.
 
-## Workflow tools
+## Workflow tools <img src="/img/head_icons/tools.png" />
 
 A small incident response team often feels like they need to take care of everything, from database admin, to trawling through TCP dump logs, to automating emails to victims of a mass compromise. We love writing small, simple tools that take the load off your analysts.  Don't be a victim of multitasking - let us help you automate the small things and reduce the load on your team.
 

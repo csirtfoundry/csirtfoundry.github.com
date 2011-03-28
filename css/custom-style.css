@@ -10,7 +10,7 @@
     display: block;
 }
 
-#main img {
+#main img .dropshadow {
     float: right;
     clear: right;
     border: 4px solid white;
@@ -30,6 +30,11 @@
     margin-left: 10px;
     margin-right: 10px;
     clear: left;
+}
+
+#main h2 img {
+    float: right;
+    margin-top: -16px;
 }
 
 div.demo-item[data-version=dev]::before {
@@ -255,7 +260,8 @@ div#index h2 {
 }
 
 #main p, #main h2, #main h3, #main a, #main ul li,
-#main .item, #main .article_date, div#disqus_thread {
+#main .item, #main .article_date, div#disqus_thread,
+#main img {
     max-width: 500px;
     text-align: left;
     margin: 0px auto;
