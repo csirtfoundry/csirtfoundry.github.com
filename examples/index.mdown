@@ -18,7 +18,7 @@ We have a long history of software development for CSIRTs. Here's a small sample
 
 Does your team follow up the status of resources being abused? What happens to that phishing site after you logged it?  Rather than your analysts continually checking - if they remember - it's far better to automate and systemise this process.
 
-Using a monitoring system, not only can you see the current status of a bad URL, but also its complete history. Don't just check and forget: learn how scammers operate.
+Using our monitoring systems, not only can you see the current status of a bad URL or host, but also its complete history. Don't just check and forget: learn how scammers operate.
 
 ## Data processing and sharing <img src="/img/head_icons/database.png" />
 
