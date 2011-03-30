@@ -24,7 +24,7 @@ Using a monitoring system, not only can you see the current status of a bad URL,
 
 One thing security teams don't lack is mountains of data. One thing they often lack are tools to break that data down and understand it.
 
-CSIRTs have large collections of information: domain name records, IP addresses, web page data, malware, C&C data and more.  Only by learning how incidents relate together can we come up with the trends that will improve our understanding and response.
+CSIRTs have large collections of information: domain name records, IP addresses, web page data, malware, C&C data and more.  Only by learning how incidents relate together can we come up with the insights to improve our response.
 
 Using both traditional data storage technologies as well as more cutting edge technologies, we can help you take control of your data and understand it on a deeper level.
 
