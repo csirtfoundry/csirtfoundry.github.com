@@ -2,7 +2,7 @@
 layout: default
 title:  Talk to us
 ---
-If you've got a project you need help with, we want to hear from you. This could be:
+If you've got a project you need help with, we want to hear from you. This includes;
 
 * consulting on how to solve a problem in your CSIRT;
 * how to improve your workflow and processes;
