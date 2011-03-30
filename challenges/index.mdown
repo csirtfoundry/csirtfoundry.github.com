@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Improving your security team's response
+title:  CSIRT challenges
 ---
 <p id="#toc">
     <ul>
@@ -54,4 +54,4 @@ We understand the needs of IR teams, because we've had those same needs before. 
 
 Working with us lets you skip over the explanations about what it is you do, and get down to solving problems. 
 
-<p><a href="/development">Next: how do we develop our software?</a></p>
+<p><a href="/about/">Next: meet the team</a></p>

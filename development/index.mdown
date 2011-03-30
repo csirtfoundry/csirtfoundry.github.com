@@ -52,4 +52,4 @@ We have experience in evaluating and deploying software used by CSIRTs. We're ha
 
 As a guiding light in the information security industry, CSIRTs need to set the example by strictly practicing secure software practices.  We have experience designing and deploying secure systems, while being acutely aware of secure software development practices.
 
-<p><a href="/examples">Next: what kind of software are we talking about?</a></p>
+<p><a href="/challenges/">Next: what CSIRT challenges can we help with?</a></p>

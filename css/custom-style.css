@@ -80,6 +80,7 @@ div.item:first-of-type {
 #main div.sponsor img {
     float: left;
     border: 0;
+    background: gold;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -88,8 +89,11 @@ div.item:first-of-type {
 
 #main p.breakout {
     border: 1px solid black;
-    background: gold;
     padding: 5px;
+    background: #EEEEEE;
+    -webkit-box-shadow: #333 0 1px 2px;
+    -moz-box-shadow: #333 0 1px 2px;
+    box-shadow: #333 0 1px 2px;
 }
 
 /* action styles */

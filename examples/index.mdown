@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What kind of software?
+title: What kind of tools?
 ---
 <p id="toc">
     <ul>
@@ -48,4 +48,4 @@ Visualisations can be as simple as a graph, or as complex as 3D eye candy that w
 
 A small incident response team often feels like they need to take care of everything, from database admin, to trawling through TCP dump logs, to automating emails to victims of a mass compromise. We love writing small, simple tools that take the load off your analysts.  Don't be a victim of multitasking - let us help you automate the small things and reduce the load on your team.
 
-<p><a href="/about">Next: meet the team</a></p>
+<p><a href="/development/">Next: how we develop software for you</a></p>

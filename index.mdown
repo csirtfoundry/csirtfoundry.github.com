@@ -3,15 +3,16 @@ layout: homepage
 title:  Ingenious tools for security teams
 ---
 
-<p class="breakout" markdown="1">CSIRT Foundry will help you **automate** and **improve** your security analysis and workflow tools.</p>
+<p class="breakout" markdown="1">CSIRT Foundry develops **software** to help **security teams** reach their **full potential**.</p>
+
+The quality of the tools that security and IR teams use have a big impact on their effectiveness and response. The right process and software in your team will remove tedium, increase focus, and reduce burnout.
 
 We offer:
 
-* custom software development
-* consulting for your security team
-* analysis and improvement of your IR and analysis workflow
+* custom software development with a security / IR mindset
+* improvement of your IR and analysis workflow
 * years of operational experience with international CSIRTs.
 
-We'd love to help your analysts remove the tedious parts of their work.  Focus on insight and analysis, and let us take care of the rest.
+Let us improve the way you work, so you can fight threats better. 
 
-<p><a href="/challenges/">Next: how can we improve your security team's response?</a></p>
+<p><a href="/examples/">Next: what kind of tools can we help with?</a></p>
