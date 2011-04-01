@@ -14,6 +14,14 @@ title:  CSIRT challenges
 
 What are some challenges we can help your security team overcome?
 
+## Response and development are different <img src="/img/head_icons/alarm.png" />
+
+Incident response involves waiting for unpredictable things to cause damage, then taking action.
+
+Software development involves making a careful plan, then implementing that plan with intense bouts of concentration.
+
+A software developer that's interrupted every ten minutes by an incident report is not effective. Your software developers need to understand the incident response process, without actually being subjected to the unpredictability of incident response itself. 
+
 ## Filtering <img src="/img/head_icons/filter.png" />
 
 An incident response team is like a filter: taking data and reports in, processing and refining them, and then producing high-quality, verified information that goes out to other teams and constituents.
@@ -35,14 +43,6 @@ The most important asset you own as a CSIRT is your name and its reputation. You
 Software interlaced with third party web service dependencies isn't for everyone. You want to know you can strictly control, verify, and rely on your environment. You may need to trust it to the point where it's not connected to any external networks at all.
 
 This creates some unique software development challenges that require special understanding.
-
-## Response and development are different <img src="/img/head_icons/alarm.png" />
-
-Incident response involves waiting for unpredictable things to cause damage, then taking action.
-
-Software development involves making a careful plan, then implementing that plan with intense bouts of concentration.
-
-A software developer that's interrupted every ten minutes by an incident report is not effective. Your software developers need to understand the incident response process, without actually being subjected to the unpredictability of incident response itself. 
 
 ## Built for the needs of CSIRTs <img src="/img/head_icons/lock.png" />
 
