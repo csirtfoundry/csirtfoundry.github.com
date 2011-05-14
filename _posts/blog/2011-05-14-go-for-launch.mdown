@@ -1,0 +1,16 @@
+---
+layout: article
+title:  Blog | CSIRT Foundry is go for launch
+
+categories:
+ - blog
+
+author: Chris Horsley
+---
+CSIRT Foundry is go for launch! After a sad farewell to Tokyo to move back to sunny Brisbane, we're open for business.
+
+We'll have plenty more coming soon, but in the meantime, we'd love to <a href="/contact/">hear from you</a> about how we can help you build and improve your incident response processes using software. Do you need a incident status monitoring system? A better ticketing system? Automated malware analysis? We can help.
+
+In other news, I'll be flying the flag down at the <a href="http://conference.auscert.org.au">AusCERT conference</a> on Sunday 15 May, and will also be a panellist at the <a href="http://conference.auscert.org.au/conf2011/CERT_BoF.html">CERT BoF</a> on Monday 16 May. If you're on the Gold Coast next week, please track me down and say hi!
+
+<p><a href="/about/#chris_horsley_">Chris</a></p>
