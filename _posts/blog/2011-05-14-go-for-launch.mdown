@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  Blog | CSIRT Foundry is go for launch
+title:  CSIRT Foundry is go for launch
 
 categories:
  - blog

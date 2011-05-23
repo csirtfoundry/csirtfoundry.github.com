@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  Blog | Welcome to CSIRT Foundry
+title:  Welcome to CSIRT Foundry
 
 categories:
  - blog

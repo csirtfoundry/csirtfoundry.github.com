@@ -1,0 +1,34 @@
+---
+layout: article
+title:  Free tools for your CSIRT - Etherpad
+
+categories:
+ - blog
+
+author: Chris Horsley
+---
+When we look to improve the effectiveness of our security teams with software, analysis or incident response systems are often the natural focus.  The unsung heroes, however, are the simple communication and collaboration software tools which can help your team run that much smoother.
+
+Today, I’ll introduce one of my favourite collaboration tools: Etherpad.
+
+[<img src="/img/blog/2011-05-21-etherpad/etherpad_thumb.png" alt="Etherpad screenshot" title="Etherpad screenshot">](/img/blog/2011-05-21-etherpad/etherpad_screen.png)
+
+Etherpad is a multi-user web-based text editor, allowing simultaneous document editing. This is immensely valuable for:
+
+* co-operatively drafting a security advisory;
+* taking shared minutes in a conference call;
+* consolidating information about a new vulnerability or attack;
+* reviewing draft reports.
+
+The ability to see realtime updates from your co-workers is a huge advantage for time-critical and jointly authored documents. Each contributor’s content is highlighted. You’ll see them entering and altering text as they go. While you’re working on the “Vulnerability” section of your security bulletin, you can see your colleague updating “Mitigations”. Then, as new information comes to hand, edit the notes your co-worker added. This beats the lock-edit-release system of many wiki systems hands down.
+
+Another other nice feature is that the entire edit history of each document is stored. You can replay edits back and see exactly when a particular change was introduced, or revert to a previous version.
+
+It should also be noted that Etherpad is slightly different in philosophy to a wiki. A wiki is a highly interconnected, searchable set of documents, while Etherpad is primarily presented as a collection of stand-alone documents. However, many basic features of a wiki, such as inter-document linking, can be replicated in Etherpad. The two can complement each other nicely.
+
+If you'd like to give Etherpad a try, good news: you can [download and host your own server](http://etherpad.org) today. Following Google’s purchase of the company originally behind Etherpad, the software was released as Open Source shortly afterwards. It’s now being actively developed, with plenty of plugins and features added all the time.
+
+If you want to give it a test run before you set up your own Etherpad server, there are multiple public servers available such as [iEtherpad](http://ietherpad.com). Give it a shot!
+
+<p><a href="/about/#chris_horsley_">Chris</a></p>
+
