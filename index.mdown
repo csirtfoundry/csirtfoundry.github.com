@@ -3,9 +3,9 @@ layout: homepage
 title:  Ingenious tools for security teams
 ---
 
-<p class="breakout" markdown="1">CSIRT Foundry develops **software** to help **security teams** reach their **full potential**.</p>
+<p class="breakout" markdown="1">CSIRT Foundry develops **software** to improve your **incident response**.</p>
 
-The quality of the tools that security and IR teams use have a big impact on their effectiveness and response. The right process and software in your team will remove tedium, increase focus, and reduce burnout.
+The quality of the tools that security and IR teams use have a big impact on their effectiveness and response. The automating processing using software in your team will remove tedium, increase focus, and reduce burnout.
 
 We offer:
 
