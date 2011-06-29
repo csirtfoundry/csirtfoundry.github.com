@@ -13,34 +13,35 @@ If there was a list of skills I could encourage every security analyst to pick u
 
 Anything that visually communicates information can be termed a visualisation. The humble bar graph:
 
-<p><img src="/img/blog/2011-06-28-vis-what/bargraph.png" /></p>
+<p><img src="/img/blog/2011-06-28-vis-what/bargraph.png" alt="Bar graph" /></p>
 
 A treemap:
 
-<p><img src="/img/blog/2011-06-28-vis-what/treemap_red.jpg">
+<p><img src="/img/blog/2011-06-28-vis-what/treemap_red.jpg" alt="Treemap">
 <div class="img_attrib"><a href="http://www.flickr.com/photos/marc_smith/1474524836/">Source</a></div></p>
 
 ASCII output:
 
-<p><img src="/img/blog/2011-06-28-vis-what/ascii_graph.png"></p>
+<p><img src="/img/blog/2011-06-28-vis-what/ascii_graph.png" alt="ASCII graph"></p>
 
 Or a slightly flashier, interactive streamgraph:
 
-<p><img src="/img/blog/2011-06-28-vis-what/streamgraph.jpg">
+<p><img src="/img/blog/2011-06-28-vis-what/streamgraph.jpg" alt="Streamgraph">
 <div class="img_attrib"><a href="http://www.flickr.com/photos/elainegreycats/3645233832/">Source</a></div></p>
 
 ## Educational vs operational visualisation ##
 
 One type of visualisation might educate, by presenting a broad concept: say, how widely French is spoken:
 
-<p><img src="/img/blog/2011-06-28-vis-what/french_map.png"/>
+<p><img src="/img/blog/2011-06-28-vis-what/french_map.png" alt="Maps of French speaking countries" />
 <div class="img_attrib"><a href="http://en.wikipedia.org/wiki/French_language">Source</a></div></p>
 
 As well as broad education, visualisations may provide new, deep insights on a data set. Here, we'll focus on generating these deep insights. We'll call this <i>operational visualisation</i>.
 
 I’m going to be talking about practical, attractive visualisations we can generate programmatically. If you’re after newspaper-like infographics with clip art and funky layouts like this:
 
-<p><img src="/img/blog/2011-06-28-vis-what/infographic.jpg" /></p>
+<p><img src="/img/blog/2011-06-28-vis-what/infographic.jpg" alt="Infographic" />
+<div class="img_attrib"><a href="http://www.flickr.com/photos/truliavisuals/5241592514/">Source</a></div></p>
 
 …you’d be better going off to read up on Illustrator. We’ll be looking at visualisations that are generated continuously and used every day.
 
@@ -48,7 +49,7 @@ I’m going to be talking about practical, attractive visualisations we can gene
 
 If you remember back to high school when you were learning about journalism, you might remember the expression “write for your audience”. It’s easy to forget that as fun as it is for us, our visualisation is ultimately for those viewing it. More than anything, our viewers need to finish viewing our visualization with some new insight. That new insight should *not* be “Wow, that’s really complex”:
 
-<p><img src="/img/blog/2011-06-28-vis-what/complex_graph.png">
+<p><img src="/img/blog/2011-06-28-vis-what/complex_graph.png" alt="Network graph" />
 <div class="img_attrib"><a href="http://www.flickr.com/photos/masterorz/3946707003/">Source</a></div></p>
 
 Some visualisations aim to look overly sophisticated or intricate, without imparting anything in particular to the audience. 
@@ -61,14 +62,14 @@ A visualisation should do at least one of the below:
 
 By visually representing our data, we can paint an overall picture of a trend. For example, here’s Tokyo’s real estate since the 1980’s, clearly showing the bubble and the subsequent crash:
 
-<p><img src="/img/blog/2011-06-28-vis-what/japan_chart.png" />
+<p><img src="/img/blog/2011-06-28-vis-what/japan_chart.png" alt="Japan real estate bubble" />
 <div class="img_attrib"><a href="http://www.statusireland.com/statistics/property-house-price-statistics-for-ireland/26/Japan-Urban-Land-Index.html">Source</a></div></p>
 
 ### Tell us what to look at next ###
 
 Visualisations take the clutter of a data set, and help us determine points of interest to dig into. For example, this well-known treemap of the US stock market shows us the overall movement of companies, sectors and the market as a whole, while pinpointing the fast movers in bright green and red:
 
-<p><img src="/img/blog/2011-06-28-vis-what/treemap.png" />
+<p><img src="/img/blog/2011-06-28-vis-what/treemap.png" alt="Market treemap" />
 <div class="img_attrib"><a href="http://www.smartmoney.com/map-of-the-market/">Source</a></div></p>
 
 Our analysts could then pick up from there and dive into data on those specific companies.
@@ -77,7 +78,7 @@ Our analysts could then pick up from there and dive into data on those specific 
 
 Reconstructing our data as a graphic can reveal new insights. For example, this node-link diagram maps an API by parent and child relationships:
 
-<p><img src="/img/blog/2011-06-28-vis-what/radial.png" />
+<p><img src="/img/blog/2011-06-28-vis-what/radial.png" alt="Node-link diagram" />
 <div class="img_attrib"><a href="http://vis.stanford.edu/protovis/ex/tree.html">Source</a></div></p>
 
 We get an instant impression of the size of the API, how deep it goes, and which parts have most components. This type of technique proves to be very useful in understanding network topologies and interconnections.
