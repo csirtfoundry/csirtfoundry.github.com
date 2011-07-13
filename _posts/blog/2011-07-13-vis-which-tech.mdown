@@ -1,14 +1,13 @@
 ---
 layout: article
-title:  It's hard to go past HTML visualizations 
+title: Picking a visualization technology (spoiler - the web wins) 
 
 categories:
  - blog
+ - visualization
 
 author: Chris Horsley
 ---
-Rethinking your visualizations in HTML
-
 So, <a href="vis-purpose.html">we’ve looked at what a good visualization should do</a>. Next: the how. What type of visualization technologies should we use?
 
 In this article, I’m going to convince you that learning how to put together a HTML + JavaScript data visualization is well worth your time.
@@ -17,9 +16,9 @@ Before we get there, let’s talk about what type of visualization we want. We w
 
 Like the beginning of any project, let's start with some requirements for our visualization:
 
-- **Automation**: we should be able to generate and update our visualization automatically. This might be via cron, or via a realtime feed of data. The rule is: if it requires any manual effort to run or refresh the visualization, it’s doomed.
+- **Automation**: we should be able to generate and update our visualization automatically. This might be periodic via cron, or via a realtime feed of data. The rule is: if any manual effort if needed to maintain the visualization, it’s doomed.
 
-- **Repeatability**: we should be able to take new data, run it through the same algorithm, and get a new visualization. Laziness is a perversely good motivator.
+- **Repeatability**: we should be able to take new data, run it through the same algorithm, and get a new visualization with no human involvement. Laziness is a perversely good motivator.
 
 - **Accessibility**: our visualization should be ideally be accessible to anyone without the need for special plugins. Especially when we’re dealing with secure environments, our viewers often don’t have the ability to add any software over the stock OS install.
 
@@ -60,20 +59,37 @@ Summary:
 <img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Repeatability: yes, many have algorithmic means of turning a data feed into a visualization.</br>
 <img src="/img/blog/2011-07-13-vis-which-tech/star_half.png" class="inl_icon"/> Accessibility: depends on the output format. A format like PNG is very accessible, but a propietary format may need a special viewer - including Excel spreadsheets.<br/>  
 <img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Interactivity: once again, very dependant on the output format.</br>
-<img src="/img/blog/2011-07-13-vis-which-tech/star_half.png" class="inl_icon"/> Animation: dany desktop tools do a nice job at this.<br/>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_half.png" class="inl_icon"/> Animation: many desktop tools do a nice job at this.<br/>
 </p>
 
-- proprietary vector-based development environments such as Flash;
+##Proprietary animation development environments##
+
+This includes any type of closed plugin enabling visualisation. For the sake of argument, let's look at one of the biggest, Flash:
 
 <p><img src="/img/blog/2011-07-13-vis-which-tech/flash.png" /></p>
 
-- proprietary dev environments a.k.a. Flash: ticks a lot of boxes, but with iOS’ stubborn refusal to support Flash, there’s no need to exclude potential viewers before writing a line of code.
+<p><img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Automation: Flash can read in live streams of data, so can be automated quite well.<br/>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Repeatability: being a flexible development environment, also allows good repeatability</br>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_half.png" class="inl_icon"/> Accessibility: this is where Flash falls down. While being installed on a majority of desktops, thanks to Apple's determined refusal to include Flash in iOS, chosing Flash cuts out a large percentage of the potential viewing population for your visualization.<br/>  
+<img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Interactivity: Flash does a very good job here.</br>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Animation: one of the reasons Flash made its mark was for excellent animation capabilities.<br/>
+</p>
 
-- open development environments such as canvas, DOM and VML embedded in HTML documents, such as Protovis:
+
+##Web technologies##
+
+
+The web used to be web pages, but now it's so much more. Open development environments using Canvas, DOM and VML embedded in HTML documents offer extremely rich functionality. One popular visualization library written in Javascript is Protovis:
 
 <p><img src="/img/blog/2011-07-13-vis-which-tech/protovis.png" /></p>
 
-- HTML: ticks all of the above. We can output static files via cron, or feed in realtime data with Javascript. It’s accessible for anyone that has a web browser - (just watch out for people still running IE 6). It’s programatically generated, so it repeatable. It’s interactive at a basic level with hyperlinks, and at an advanced level with event handling. It’s animatable via vector graphics using Canvas, SVG or manipulating page elements.
+<p><img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Automation: we can output HTML or data files via cron, or stream them into a web browser using Javascript and JSON. With such an easy-to-modify format, there's really not many limits to what we can automate.<br/>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Repeatability: Javascript visualization libraries use algorithms to lay out everything, so good marks for this, too.</br>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Accessibility: I'd like to give a 90% star to this. Any modern browser on desktops or mobile devices can load a very sophisticated web visualisation. Downsides: the definition of "modern" varies - some organisations are still stuck with Internet Explorer 6. For the most part though, excellent, and distribution is as simple as sending a URL.<br/>  
+<img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Interactivity: web technologies offer from basic hyperlinks, all the way to sophisticated event capturing and gestures on mobile devices.</br>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Animation: Using the right libraries, we can put together some amazing animations with HTML and Javascript. Libraries like D3 are doing a great job here.<br/>
+</p>
+
 
 The main downside of HTML is a steeper learning curve. It requires some programming know-how; though this is not a bad thing to invest some time in anyhow. As we’ll see, there are a lot of tools that will make the learning curve a lot less steep.
 
