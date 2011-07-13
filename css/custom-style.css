@@ -281,6 +281,10 @@ div#index h2 {
     margin-bottom: 15px;
 }
 
+#main .inl_icon {
+    margin-bottom: 0px !important;
+}
+
 #main .img_attrib {
     margin-top: -30px;
     text-align: right;
