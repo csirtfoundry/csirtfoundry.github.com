@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The right tools for building operational visualizations
+title: The Great Visualization Technology Bake-Off
 
 categories:
  - blog
