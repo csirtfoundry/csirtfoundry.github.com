@@ -8,7 +8,7 @@ categories:
 
 author: Chris Horsley
 ---
-So, <a href="vis-purpose.html">we’ve looked at what a good visualization should do</a>. Next: the how. What type of visualization technologies should we use?
+So, <a href="/blog/vis-what">we’ve looked at what a good visualization should do</a>. Next: the how. What type of visualization technologies should we use?
 
 In this article, we're going to look at a variety of visualization technologies, then make an evaluation about which ones work best in our toolbelt.
 
