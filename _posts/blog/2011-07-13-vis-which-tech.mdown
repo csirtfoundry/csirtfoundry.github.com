@@ -79,7 +79,7 @@ Roundup:
 <img src="/img/blog/2011-07-13-vis-which-tech/star_half.png" class="inl_icon"/> Accessibility: this is where Flash falls down. While being installed on a majority of desktops, thanks to Apple's determined refusal to include Flash in iOS, choosing Flash cuts out a large percentage of the potential viewing population for your visualization.<br/>  
 <img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Interactivity: Flash does a very good job here.</br>
 <img src="/img/blog/2011-07-13-vis-which-tech/star_on.png" class="inl_icon"/> Animation: one of the reasons Flash made its mark was for excellent animation capabilities.<br/>
-<img src="/img/blog/2011-07-13-vis-which-tech/star_half.png" class="inl_icon"/>Ease of use: Flash can require some programming know-how, but it's back up by some very nice development suites, too.<br/>
+<img src="/img/blog/2011-07-13-vis-which-tech/star_half.png" class="inl_icon"/>Ease of use: Flash can require some programming know-how, but it's backed up by some very nice development suites, too.<br/>
 </p>
 
 
