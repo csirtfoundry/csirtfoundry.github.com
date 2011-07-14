@@ -20,7 +20,7 @@ Like any technology decision, let's start with some requirements for our chosen 
 
 - **Repeatability**: we should be able to take new data, run it through the same algorithm, and get a new visualization with no human involvement. Laziness is a perversely good motivator.
 
-- **Accessibility**: our visualization should be ideally be accessible to anyone without the need for special plugins. Especially when we’re dealing with secure environments, our viewers often don’t have the ability to add any software over the stock OS install.
+- **Accessibility**: our visualization should be ideally be accessible to anyone without the need for special plugins. Especially when we’re dealing with secure environments or big corporates, our viewers often don’t have the ability to install any new software.
 
 - **Interactive**: this can be as simple as allowing clicks to dig further into information. This is essential for deep understanding of the data presented. For example: what’s the IP address represented by that big, red point?
 
