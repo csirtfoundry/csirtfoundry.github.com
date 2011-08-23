@@ -22,14 +22,14 @@ It turns out that looking through a text file for network resources belonging to
     abc.net.au,Australian
     bbc.co.uk,British
     203.2.218.214,Australian
-    google.com.au,.au TLD resolving to United States IP address
+    google.com.au,Aus TLD resolving to United States IP address
 
     # show lines related to Australia
     
     $ netgrep AU addr.txt 
     abc.net.au,Australian
     203.2.218.214,Australian
-    google.com.au,.au TLD resolving to United States IP address
+    google.com.au,Aus TLD resolving to United States IP address
 
     # show lines related to the United States
     
@@ -47,7 +47,7 @@ It turns out that looking through a text file for network resources belonging to
     abc.net.au,Australian
     bbc.co.uk,British
     203.2.218.214,Australian
-    google.com.au,.au TLD resolving to United States IP address
+    google.com.au,Aus TLD resolving to United States IP address
 
 You can also pipe input:
 
