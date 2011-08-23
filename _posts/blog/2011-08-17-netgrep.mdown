@@ -67,4 +67,4 @@ You can also pipe input:
 
 In general, you can throw any format of text file you like at it, and netgrep will make a best effort to find any IP addresses and domain names.
 
-Netgrep is available as Python a <a href="http://pypi.python.org/pypi/netgrep/">package on PyPI</a> for installation and on <a href="https://github.com/csirtfoundry/netgrep">Github if you'd like to check out the code</a>. Installation instructions are contained in the readme. Comments, feedback and requests welcome!
+Netgrep is available as a Python <a href="http://pypi.python.org/pypi/netgrep/">package on PyPI</a> for installation and on <a href="https://github.com/csirtfoundry/netgrep">Github if you'd like to check out the code</a>. Installation instructions are contained in the readme. Comments, feedback and requests welcome!
