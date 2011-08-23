@@ -1,0 +1,70 @@
+---
+layout: article
+title: Netgrep - filter files by country code and ASN
+
+categories:
+ - blog
+ - tools
+
+author: Chris Horsley
+---
+Here's a common problem in the life of an incident handler, particularly one responsible for an AS or country code.
+
+You get a big text file full of infected bot IPs, domain names, URLs, or IRC channels. You're only concerned with network objects in your country code (e.g. .au) or on your Autonomous System (AS). 
+
+Let's say you only wanted to see lines of your log with network objects relating to Australia. You *could* grep the file for anything containing ".au". This would catch anything with .au in the domain name, including www.austria.gv.at if you weren't careful. However, what about IP addresses in Australia? What about domain names ending in .com and hosted in Australia? What about only those domains hosted on your network?
+
+It turns out that looking through a text file for network resources belonging to a particular country code or AS is a little more involved than you might have hoped. With that in mind, CSIRT Foundry would like to present Netgrep: grep for country codes and ASNs. It works like this: 
+
+    # original file
+    
+    $ cat addr.txt
+    abc.net.au,Australian
+    bbc.co.uk,British
+    203.2.218.214,Australian
+    google.com.au,.au TLD resolving to United States IP address
+
+    # show lines related to Australia
+    
+    $ netgrep AU addr.txt 
+    abc.net.au,Australian
+    203.2.218.214,Australian
+    google.com.au,.au TLD resolving to United States IP address
+
+    # show lines related to the United States
+    
+    $ netgrep US addr.txt
+    google.com.au,Australian TLD resolving to US IP address
+
+    # show lines related to AS2818, owned by BBC
+    
+    $ netgrep AS2818 addr.txt
+    bbc.co.uk,British
+
+    # compound filter: match both Aus IPs / domains and AS2818
+    
+    $ netgrep AU,AS2818 addr.txt
+    abc.net.au,Australian
+    bbc.co.uk,British
+    203.2.218.214,Australian
+    google.com.au,.au TLD resolving to United States IP address
+
+You can also pipe input:
+
+    # see if 200.200.200.200 is in Brazil
+
+    $ echo "200.200.200.200" | netgrep BR
+    200.200.200.200
+    # yes, it is
+
+    # handles most things containing a hostname or domain
+
+    $ cat log.txt | netgrep US
+    http://slashdot.org
+    whitehouse.gov
+    example@hotmail.com
+    irc://Tampa.FL.US.Undernet.org
+
+In general, you can throw any format of text file you like at it, and netgrep will make a best effort to find any IP addresses and domain names.
+
+Netgrep is available as Python a <a href="http://pypi.python.org/pypi/netgrep/">package on PyPI</a> for installation and on <a href="https://github.com/csirtfoundry/netgrep">Github if you'd like to check out the code</a>. Installation instructions are contained in the readme. Comments, feedback and requests welcome!
