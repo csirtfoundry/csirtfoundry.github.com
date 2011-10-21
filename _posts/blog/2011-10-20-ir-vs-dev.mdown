@@ -8,7 +8,7 @@ categories:
 
 author: Chris Horsley
 ---
-Security teams have lots of itches they need to scratch with software tools, often developed in-house. A project might be a small data parsing scripts, or it may be full-blown database-driven web applications.  However, there are some big problems with developing software in a highly operations-focused group, and it has to do with the nature of each type of work.
+Security teams have lots of itches they need to scratch with software tools, often developed in-house. A project might be a small data parsing scripts, or it may be full-blown database-driven web application.  However, there are some big problems with developing software in a highly operations-focused group, and it has to do with the nature of each type of work.
 
 ##The problem##
 
