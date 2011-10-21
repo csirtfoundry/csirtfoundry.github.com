@@ -14,9 +14,9 @@ Security teams have lots of itches they need to scratch with software tools, oft
 
 Fundamentally, IR and development are two very different mindsets. At its core, incident response is about waiting for things to happen, then reacting. Project work, such as software development, is a creative process needing intense amounts of concentration. You make things, rather than react to them. So, how do they get along?
 
-If you’ve ever worked in an operations team, you might have seen this first hand. Programming is about keeping a complex state internally: the order which nested functions call others; what variables are storing; how data flows through the system. A phone call, an email alert, or chirping SMS flushes the inner state the developer has been constructing in their head, and drags them back into the physical world. 
+If you’ve ever worked in an operations team, you might have seen this first hand. Programming is about keeping a complex state internally: the order in which nested functions call others; what all your variables are storing; how data flows through the system. A phone call, an email alert, or chirping SMS flushes the inner state the developer has been constructing in their head, and drags them back into the physical world. 
 
-It’s a disconcerting experience. Once the part-time developer / part-time incident responder gets back to their development work, it will take a good amount of time to get back in the groove again. Interrupt them enough, and they’ll soon become adverse to even getting into a deep state of concentration, for fear they’re going to be shaken out of it, and procrastination sets in. This is not just the case for incident interruptions: multiple unscheduled meetings or drop-ins to their desk can have the same effect.
+It’s a disconcerting experience. Once the part-time developer / part-time incident responder gets back to their development work, it will take a good amount of time to get back in the groove again. Interrupt them enough, and they’ll soon become adverse to even getting into a deep state of concentration, for fear they’re going to be shaken out of it. Procrastination sets in. This is not just the case for incident interruptions: multiple unscheduled meetings or drop-ins to their desk can have the same effect.
 
 ##The impact##
 
@@ -24,10 +24,12 @@ As well as a heightened state of anxiety for your part-time developers, wonderin
 
 ##So, what should we do?##
 
-One strategy might be to divide your workers up into groups based on role. Those working on project roles are out of earshot of phones and conversations, and can get into the state of flow they need to build things. If you need to continually rotate your developers back into the operational pool, try to let them know how long they have to do project work - a day, a week, or a month. As they say, work fills to meet the amount of time you have, so even short, but dedicated, timeframes can produce a high amount of productivity.
+One strategy might be to divide your staff up into groups based on role. Those working on project roles are out of earshot of phones and conversations, and can get into the state of flow they need to build things. If you need to continually rotate your developers back into the operational pool, try to guarantee how long they have to do project work - a day, a week, or a month. As they say, work fills to meet the amount of time you have, so even short, but dedicated, timeframes can produce a high amount of productivity.
 
-The second group get on with the business of operations, knowing that they’re not going to irritate anyone trying to concentrate.
+As an additional bonus, your responders can communicate and interrupt each other freely, knowing that they’re not going to irritate anyone trying to concentrate.
 
-Alternatively, you might consider bringing in outside help, drawing on the strength of a dedicated developer working outside of your bustling operations centre. Not without a small amount of bias: if this is the option for you, we’d love to <a href="/contact/">talk to you</a> about how we can help.
+Alternatively, you might consider bringing on a dedicated, external developer to help make your operations run smoother with better software. Not without a small amount of bias: if this is the option for you, we’d love to <a href="/contact/">talk to you</a> about how we can help.
+
+Until next time,
 
 Chris
