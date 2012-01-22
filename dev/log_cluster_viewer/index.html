@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log cluster zoomer</title>
+    <link rel="stylesheet" type="text/css" href="rend.css" />
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-tooltip/jquery.tooltip.min.js"></script>
+    <script type="text/javascript" src="infobox.js"></script>
+
+    <script type="text/javascript" src="feeder.js"></script>
+    <script type="text/javascript" src="rend.js"></script>
+    <script type="text/javascript" src="traffic.json"></script>
+</head>
+<body>
+    <div id="infobox"></div>
+
+    <div style="float: left" id="viz"></div>
+    <script type="text/javascript">
+
+    var attacks = [
+        { src: "192.168.0.1", dst: "172.168.1.2", dport: "45", valid: true, time: 1325666240 , num_conns: 1},
+        { src: "192.168.0.1", dst: "172.168.1.2", dport: "445", valid: false, time: 1325666241 , num_conns: 1},
+        { src: "192.168.0.1", dst: "172.168.1.2", dport: "53", valid: true, time: 1325666242 , num_conns: 1},
+        { src: "192.168.0.1", dst: "172.168.1.2", dport: "22", valid: false, time: 1325666243 , num_conns: 1},
+        { src: "192.168.0.1", dst: "172.168.1.2", dport: "22", valid: false, time: 1325666244 , num_conns: 1},
+        { src: "192.168.0.1", dst: "172.168.1.2", dport: "22", valid: true, time: 1325666245 , num_conns: 1},
+        { src: "192.168.0.1", dst: "172.168.1.2", dport: "80", valid: false, time: 1325666250 , num_conns: 1},
+        { src: "192.168.0.2", dst: "172.168.1.3", dport: "22", valid: true, time: 1325666252 , num_conns: 1},
+        { src: "192.168.0.3", dst: "172.168.1.3", dport: "53", valid: true, time: 1325666252 , num_conns: 1},
+        { src: "192.168.0.4", dst: "172.168.1.3", dport: "22", valid: true, time: 1325666253 , num_conns: 1},
+        { src: "192.168.0.4", dst: "172.168.1.3", dport: "22", valid: false, time: 1325666254 , num_conns: 1},
+        { src: "192.168.0.4", dst: "172.168.1.3", dport: "38", valid: true, time: 1325666255 , num_conns: 1},
+        { src: "192.168.0.4", dst: "172.168.1.3", dport: "22", valid: true, time: 1325666256 , num_conns: 1},
+        { src: "192.168.0.4", dst: "172.168.1.3", dport: "22", valid: true, time: 1325666257 , num_conns: 1},
+        { src: "192.168.0.4", dst: "172.168.1.1", dport: "80", valid: true, time: 1325666258 , num_conns: 1},
+        { src: "192.168.0.5", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666259 , num_conns: 1},
+        { src: "192.168.0.6", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666260 , num_conns: 1},
+        { src: "192.168.0.7", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666262 , num_conns: 1},
+        { src: "192.168.0.8", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666266 , num_conns: 1},
+        { src: "192.168.0.9", dst: "172.168.1.1", dport: "23", valid: true, time: 1325666268 , num_conns: 1},
+        { src: "192.168.0.10", dst: "172.168.1.4", dport: "22222", valid: true, time: 1325666270 , num_conns: 1},
+        { src: "192.168.0.11", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666275 , num_conns: 1},
+        { src: "192.168.0.12", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666278 , num_conns: 1},
+        { src: "192.168.0.13", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666279 , num_conns: 1},
+        { src: "192.168.0.14", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666280 , num_conns: 1},
+        { src: "192.168.0.15", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666285 , num_conns: 1},
+        { src: "192.168.0.12", dst: "172.168.1.4", dport: "22", valid: true, time: 1325666300 , num_conns: 1},
+        { src: "192.168.0.4", dst: "172.168.1.1", dport: "22", valid: true, time: 1325666350 , num_conns: 1},
+    ];
+
+    //ondblclick="rend.double_click_zoom(this)"
+    var feeder = feeder({data:traffic});
+    feeder.init();
+    var rend = rend({feeder:feeder});
+
+    document.getElementById("viz").addEventListener("dblclick", rend.double_click_zoom, false);    
+
+    window.onresize = function(){ rend.reset_scale_and_sweeps(); }
+
+    rend.init();
+
+</script>
+</body>
+</html>
