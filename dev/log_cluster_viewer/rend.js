@@ -64,7 +64,7 @@ var rend = function(spec){
                && d3.event.target.className.baseVal != "conncirc"){
                 that.infobox.unset();
             }
-        });
+        })
 
         that.intro_infobox();
         that.set_scales();
@@ -709,7 +709,9 @@ var rend = function(spec){
             .text(function(d) { return d.src })
             .transition()
               .duration(that.sweep_transition_time)
-              .style("font-size", function(d){ return (that.get_src_line_height() * 0.7) + "px"});
+              .style("font-size", function(d){ 
+                return (d3.min([(that.get_src_line_height() * 0.7), 20]))
+              });
 
         
         var srclines_base = src_group
