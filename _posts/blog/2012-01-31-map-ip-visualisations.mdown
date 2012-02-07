@@ -92,3 +92,5 @@ One area where map-based visualisations dominate is in flashy "defcon" style map
 Maps are highly overused in information security visualisations. Most of the relationships we want to show in information relating to networks aren't geographical. 
 
 Far better options like the humble bar graph exist that provide more operational insight and demonstrate the point you'd like to make better. Save your maps for that LCD kiosk in your lobby, or problems that are actually affected by geography.
+
+<p><a href="http://twitter.com/Parsify">Chris</a></p>
