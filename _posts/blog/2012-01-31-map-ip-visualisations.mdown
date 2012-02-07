@@ -34,7 +34,7 @@ Before you think about that, think about this. Using a map, we burden ourselves 
 
 ##Map constraints##
 
-###1. Comparisons are difficult make on a map###
+###1. Comparisons are difficult to make on a map###
 
 Let's say that you have a worldwide malware infection. You put the data on a map, and it looks like this:
 
