@@ -93,4 +93,6 @@ Maps are highly overused in information security visualisations. Most of the rel
 
 Far better options like the humble bar graph exist that provide more operational insight and demonstrate the point you'd like to make better. Save your maps for that LCD kiosk in your lobby, or problems that are actually affected by geography.
 
-<p><a href="http://twitter.com/Parsify">Chris</a></p>
+<p>Chris (<a href="http://twitter.com/Parsify">@Parsify</a>)</p>
+
+*CSIRT Foundry specialises in custom data visualisations for information security and network data. <a href="/contact/">Contact us</a> to find out more*.

@@ -2,12 +2,13 @@
 layout: default
 title:  Talk to us
 ---
-If you've got a project you need help with, we want to hear from you. This includes;
+If you've got a project you need help with, we want to hear from you. This includes:
 
+* custom data visualisation for information security and network data;
+* software development from design to development and implementation;
+* CSIRT training;
 * consulting on how to solve a problem in your CSIRT;
-* how to improve your workflow and processes;
-* advice chosing which solution to implement;
-* a software development project, from design to development and implementation.
+* how to improve your workflow and processes.
 
 You can get in touch with us in multiple ways:
 
