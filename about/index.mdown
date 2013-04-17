@@ -13,7 +13,7 @@ Founded in 2011, CSIRT Foundry is a privately held company based in Brisbane, Au
 
 Chris has over six years of experience working in national CSIRTs, as well as five years experience as a software developer and sysadmin before that. He joined AusCERT in 2003, where he developed a strong interest in automation and visualisation, particularly for processing phishing sites and log files. The small but very active AusCERT analyst team did everything: tackling online financial fraud, building tools, talking on the phone to victims of compromise, interacting with the international security community, and providing security training courses.
 
-After almost three years at AusCERT, he moved to Japan to work for JPCERT/CC, the Japanese national CSIRT. This lead to tasks as varied as phishing site monitoring system development, dashboard development, international training, malware analysis, and sensor network visualisations. After four years and a great amount of cultural broadening in Japan, he moved back to Australia to become a co-founder of Sidelab along with Damon Oehlman.
+After almost three years at AusCERT, he moved to Japan to work for JPCERT/CC, the Japanese national CSIRT. This lead to tasks as varied as phishing site monitoring system development, dashboard development, international training, malware analysis, and sensor network visualisations. After four years and a great amount of cultural broadening in Japan, he moved back to Australia to start CSIRT Foundry.
 
 The common thread that emerged again and again was a desire to develop tools to improve processes. Rather than trying to adapt his job to suit software development, he thought it better to make software development his job.
 
