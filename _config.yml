@@ -2,7 +2,7 @@ title: CSIRT Foundry
 description: "Custom tool development for security and incident response teams"
 theme: tile5
 permalink: /:categories/:title
-#root: /
+root: /
 baseurl: /
 
 pygments: true
