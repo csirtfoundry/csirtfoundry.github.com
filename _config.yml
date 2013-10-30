@@ -3,6 +3,7 @@ description: "Custom tool development for security and incident response teams"
 theme: tile5
 permalink: /:categories/:title
 root: /
+baseurl: /csirtfoundry.github.com
 
 pygments: true
 
