@@ -2,10 +2,13 @@ title: CSIRT Foundry
 description: "Custom tool development for security and incident response teams"
 theme: tile5
 permalink: /:categories/:title
-root: /
-baseurl: /csirtfoundry.github.com
+#root: /
+baseurl: /
 
 pygments: true
+
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md,mdown
 
 authors:
     ChrisHorsley:
