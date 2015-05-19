@@ -5,7 +5,7 @@ permalink: /:categories/:title
 root: /
 baseurl: /
 
-highlighter: true
+pygments: true
 
 markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md,mdown
