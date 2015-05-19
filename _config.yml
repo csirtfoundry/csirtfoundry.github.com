@@ -5,9 +5,9 @@ permalink: /:categories/:title
 root: /
 baseurl: /
 
-pygments: true
+highlighter: true
 
-markdown:      maruku
+markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md,mdown
 
 authors:
