@@ -1,0 +1,25 @@
+---
+layout: article
+title: Announcing the CSIRT Tools subreddit
+
+categories:
+ - blog
+ - tools
+
+author: Chris Horsley
+---
+Things have been quiet on the blogging front, but there's plenty
+going on behind the scenes that awaits a future announcement.
+
+In the meantime though, I'm posting regularly to a new subreddit dedicated to
+software and analysis techniques for IR teams called
+<a href="https://www.reddit.com/r/csirt_tools/">CSIRT Tools</a>. As well as
+being a repository of links to tools and articles, discussion about platforms,
+systems, utilities, analysis techniques is more than welcome.
+
+So, feel free to browse around, bookmark useful articles, add your own
+(self-promotion of pet projects perfectly okay), and contribute as you like.
+
+<a href="https://www.reddit.com/r/csirt_tools/">CSIRT Tools subreddit</a>
+
+Chris (<a href="https://twitter.com/Parsify">@Parsify</a>)
